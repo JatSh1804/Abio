@@ -1,5 +1,5 @@
-body {
-  background-color: #C1D5A4
+body{
+  background-color: #D1FEE6
 }
 
 hr {
@@ -9,11 +9,35 @@ hr {
   border-width: 7px;
 }
 input{
-  background-color: #C1D5A4
+  background-color: #D1FEE6
 }
 textarea{
-  background-color: #C1D5A4
+  background-color: #D1FEE6
 }
-h1{color: #C21010}
-h2{color: #C21010}
-h3{color: #C21010}
+
+/*......................Hovering concept...................*/
+
+h1{color: #53D48F} h1:hover{color: grey;}
+h2{color: #53D48F} h2:hover{color: grey;}
+
+img{
+  background-color: #D1FEE6
+}
+/*......................class concept.....................*/
+
+
+.star_hover:hover{
+ font-size: 20px;
+}
+.fixtext_hover:hover{
+  position:fixed;
+}
+.profileimg:hover{
+  width: 160px;height: 160px;
+}
+hr:hover{
+  border-color: white;
+}
+.contactme_hover:hover{
+  font-size: 18px;
+}
