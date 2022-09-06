@@ -1,0 +1,19 @@
+body {
+  background-color: #C1D5A4
+}
+
+hr {
+  border-style: dotted none none none;
+  width: 5%;
+  border-color: grey;
+  border-width: 7px;
+}
+input{
+  background-color: #C1D5A4
+}
+textarea{
+  background-color: #C1D5A4
+}
+h1{color: #C21010}
+h2{color: #C21010}
+h3{color: #C21010}
