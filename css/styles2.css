@@ -1,7 +1,7 @@
+
 body{
-  background-color: #D1FEE6;
+  background-color: #472D2D;
   user-select:none;
-  font-family: 'Merriweather', serif;
 }
 
 
@@ -10,82 +10,63 @@ hr {
   width: 5%;
   border-color: grey;
   border-width: 7px;
- zoom:100%;
+
 
 
 }
 input{
-  background-color: #D1FEE6
+  background-color: #472D2D
 }
 textarea{
-  background-color: #D1FEE6
+  background-color: #472D2D
 }
 /*----------------------Divisions-------------------------*/
 .J_divs{
-  background-color: #CDF0EA;
+  background-color: #A77979;
   width: 600px;
-  margin-left: 20%;
-  margin-right: 15%;
+  margin-left: 200px;
   border-radius: 25px;
 }
 
 .profile_div{
-    height:190px;
-    
+    display: block;
 }
 .Literature_div{
-  background-color: #CDF0EA;
+  background-color: #A77979;
 }
 .contact_div{
   height: 100px
+
 }
-.hobbie_div{
-  height:170px;
-}
+
 
 
 /*---------------------------Tables--------------------*/
-.profile_table{
-  margin-left: 170px;
-  position: relative;
-  bottom: 180px;
-}
 
+.profile_table{
+  margin-left: 60px;
+}
 .Literature_list{
   margin-left: 60px;
 }
 .skills_table{
   margin-left: 60px;
 }
-.five_star{
- width: 140px;
+.hobbie_table{
+  margin-left: 60px;
 }
 /*......................Hovering concept...................*/
 
-h1{color: #53D48F;
-  display: inline-block;
-  margin-left: 10px;
-  font-family: 'Sacramento', cursive;
-}
+h1{color: #BFACE0;}
 h1:hover{color: grey;}
-h2{color: #53D48F;
-  margin-left: 240px;
-  margin-top: 0;
+h2{color: #BFACE0;
+  margin-left: 250px;
   display: inline-block;
-  font-family: 'Montserrat', sans-serif;
-
 }
 h2:hover{color: grey;}
 
-.profile_list{
-position: relative;
-bottom: 22px;
-
-}
-
 img{
-  background-color: #D1FEE6;
-  pointer-events:none;
+  background-color: #A77979
 }
 /*......................class concept.....................*/
 
@@ -93,35 +74,29 @@ img{
 .star_hover:hover{
   font-size: 20px;
 }
-.profileimg{
- margin-top: 20px;
- margin-left: 20px;
 
-}
 .profileimg:hover{
   width: 160px;
   height: 160px;
 }
 hr:hover{
-
   border-color: white;
 }
 
 .mail_contact{
-  position: relative;
-  bottom: 15px;
-  left: 425px;
-  pointer-events: all ;
+  position: absolute;
+  top: 1160px ;
+  left: 350px;
 }
 .mail_contact:hover{
-  height: 45px;
+  height:  45px;
   width: 45px;
 }
 .insta_contact{
-  position: relative;
-  bottom: 15px;
-  left: 100px;
-  pointer-events: auto;
+  position: absolute;
+  top:1160px;
+  left: 650px;
+  margin: 0;
 }
 .insta_contact:hover{
   height: 45px;
@@ -131,22 +106,22 @@ hr:hover{
 
 .development_gif{
   position: relative;
-  left: 80px;
+  left: 100px;
   border-radius: 50px;
 }
 .Typing_gif{
   position: relative;
-  left: 80px;
+  left: 100px;
   border-radius: 50px;
 }
 .dribble_gif{
   border-radius: 50px;
   position: relative;
-  left: 80px;
+  left: 100px;
 }
 .boxing_gif{
- background-color: #CDF0EA;
- position: relative;
- bottom: 135px;
- left: 465px;
+ position: absolute;
+ left: 650px;
+ top: 960px;
+ background-color: #A77979;
 }
