@@ -1,10 +1,4 @@
-html{
-  width: 100%;
-  height: 100%;
-}
 body{
-  width:100%;
-  height: 100%;
   background-color: #D1FEE6;
   user-select:none;
 }
@@ -15,6 +9,9 @@ hr {
   width: 5%;
   border-color: grey;
   border-width: 7px;
+
+
+
 }
 input{
   background-color: #D1FEE6
@@ -25,7 +22,8 @@ textarea{
 /*----------------------Divisions-------------------------*/
 .J_divs{
   background-color: #CDF0EA;
-  margin: 0 200px;
+  width: 600px;
+  margin-left: 200px;
   border-radius: 25px;
 }
 
@@ -36,8 +34,8 @@ textarea{
   background-color: #CDF0EA;
 }
 .contact_div{
+  height: 100px
 
-  padding: 10px;
 }
 
 
@@ -61,7 +59,7 @@ textarea{
 h1{color: #53D48F;}
 h1:hover{color: grey;}
 h2{color: #53D48F;
-  margin-left: 300px;
+  margin-left: 250px;
   display: inline-block;
 }
 h2:hover{color: grey;}
@@ -83,15 +81,21 @@ img{
 hr:hover{
   border-color: white;
 }
+
 .mail_contact{
-  margin-left: 170px;
+  position: absolute;
+  top: 1160px ;
+  left: 350px;
 }
 .mail_contact:hover{
   height:  45px;
   width: 45px;
 }
 .insta_contact{
-  margin-left: 300px;
+  position: absolute;
+  top:1160px;
+  left: 650px;
+  margin: 0;
 }
 .insta_contact:hover{
   height: 45px;
