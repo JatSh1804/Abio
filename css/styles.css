@@ -1,9 +1,10 @@
+
 body{
   background-color: #D1FEE6;
   user-select:none;
   font-family: 'Merriweather', serif;
-  width:300px;
-  height:340px;
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -25,15 +26,16 @@ textarea{
 /*----------------------Divisions-------------------------*/
 .J_divs{
   background-color: #CDF0EA;
-  width: 600px;
-  margin-left: 20%;
-  margin-right: 15%;
+  width: 50%;
   border-radius: 25px;
+  margin-left: 25%;
+  margin-right: 25%;
+
 }
 
 .profile_div{
     height:190px;
-    
+
 }
 .Literature_div{
   background-color: #CDF0EA;
@@ -71,9 +73,10 @@ h1{color: #53D48F;
 }
 h1:hover{color: grey;}
 h2{color: #53D48F;
-  margin-left: 240px;
+
   margin-top: 0;
-  display: inline-block;
+
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
 
 }
@@ -133,22 +136,23 @@ hr:hover{
 
 .development_gif{
   position: relative;
-  left: 80px;
   border-radius: 50px;
 }
 .Typing_gif{
   position: relative;
-  left: 80px;
+
   border-radius: 50px;
 }
 .dribble_gif{
   border-radius: 50px;
   position: relative;
-  left: 80px;
 }
 .boxing_gif{
  background-color: #CDF0EA;
  position: relative;
- bottom: 135px;
- left: 465px;
+ bottom: 150px;
+ left: 370px;
+
+
+
 }
